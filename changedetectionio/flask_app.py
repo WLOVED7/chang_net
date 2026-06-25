@@ -120,7 +120,7 @@ if os.getenv('FLASK_SERVER_NAME'):
 
 # Babel/i18n configuration
 app.config['BABEL_TRANSLATION_DIRECTORIES'] = str(Path(__file__).parent / 'translations')
-app.config['BABEL_DEFAULT_LOCALE'] = 'en_GB'
+app.config['BABEL_DEFAULT_LOCALE'] = 'zh'
 
 # Session configuration
 # NOTE: Flask session (for locale, etc.) is separate from Flask-Login's remember-me cookie
