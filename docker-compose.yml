@@ -1,6 +1,7 @@
 services:
     changedetection:
-      image: ghcr.io/dgtlmoon/changedetection.io
+      build: .
+      image: changedetection-local
       container_name: changedetection
       hostname: changedetection
       volumes:
